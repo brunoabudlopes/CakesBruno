@@ -1,0 +1,24 @@
+﻿@using System.Globalization;
+
+<div>
+    <h2>All cakes are shown here</h2>
+</div>
+
+<h2>@Model.CurrentCategory</h2>
+
+@{
+    if (Model == null)
+    {
+        <span>No items found</span>
+    }
+    else
+    {
+        foreach (var cake in Model.Cakes)
+        {
+            <div>
+                <h4>Cake Name: @cake.Name</h4>
+                <p>Cake price: @cake.Price.ToString("C", new CultureInfo("en-US"))</p>
+            </div>
+        }
+    }
+}
