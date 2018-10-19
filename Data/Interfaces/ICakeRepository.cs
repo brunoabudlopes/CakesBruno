@@ -8,8 +8,8 @@ namespace CakesBruno.Data.Interfaces
 {
     public interface ICakeRepository
     {
-        IEnumerable<Cake> Cakes { get; set; }
-        IEnumerable<Cake> PreferredCakes { get; set; }
+        IEnumerable<Cake> Cakes { get; }
+        IEnumerable<Cake> PreferredCakes { get; }
         Cake GetCakeById(int cakeId);
     }
 }

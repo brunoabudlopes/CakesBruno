@@ -18,8 +18,13 @@ using CakesBruno.ViewModels;
 
 #line default
 #line hidden
+#line 2 "C:\Users\Bruno Lopes\source\repos\CakesBruno\CakesBruno\Views\_ViewImports.cshtml"
+using CakesBruno.Data.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b7ed7f0143cd9087aa03f8267b41c0bd113c8b61", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f4863a5c4e1f96ad54c4b4bc40579af1e7d0513e", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

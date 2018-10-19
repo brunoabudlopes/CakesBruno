@@ -14,8 +14,8 @@ namespace CakesBruno.Data.Mocks
             {
                 return new List<Category>
                 {
-                    new Category { CategoryName = "Wedding Cakes", Description = "All wedding cakes"},
-                    new Category { CategoryName = "Birthday Cakes", Description = "All birthday cakes"}
+                    new Category { CategoryName = "Wedding Cake", Description = "All wedding cakes"},
+                    new Category { CategoryName = "Birthday Cake", Description = "All birthday cakes"}
                 };
             }
         }
